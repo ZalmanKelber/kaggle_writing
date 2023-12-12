@@ -1,0 +1,5 @@
+These series of notebooks explores the feature engineering, feature selection, model selection and construction of an ensemble of models for a submission to the [Linking Writing Process to Writing Quality](https://www.kaggle.com/competitions/linking-writing-processes-to-writing-quality) Kaggle competition
+
+A series of logs shows keyboard actions taken over the course of different SAT Writing essays.  Feature engineering begins by [constructing the individual essays from the keystroke information](https://github.com/ZalmanKelber/kaggle_writing/blob/main/construct_essays.ipynb).  Six separate dataframes with different kinds of features are then constructed from both the logs and the reconstructed essays.
+
+[The first](https://github.com/ZalmanKelber/kaggle_writing/blob/main/writing6.ipynb?short_path=7aeb879#L661) relies on domain knowledge to extract features from the essay that are likely to represent either 
